@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap for layout -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <!-- Style css link -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <!--Title-->
+    <title>Weather Dasboard</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <h1 class="headerH1"><i class="fas fa-snowflake snowPiece"></i>Weather Dasboard</h1>
+        <div class="currentDate"></div>
+    </header>
+
+    <!--Container-->
+    <div class="container-fluid">
+        <div class="row rowBody">
+            <div class="col-lg-3">
+                <!-- Search inputs -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control searchInput" placeholder="Enter City Name">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-primary searchButton" type="button" id="button-addon2"><i
+                                        class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Search history-->
+                    <div id="BtnDiv" class="card-body">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9">
+                <!--Current weather-->
+                <div class="row">
+                    <div class="card currentCard pb-2 pt-1 ml-4 mr-4">
+
+                    </div>
+                </div>
+                <!--Five day forecast-->
+                <div class="row">
+                    <div class="col mt-4">
+                        <div class="card pb-5 fiveDayCard pl-5">
+                            <div class="row ml-auto mr-auto">
+                                <div class="col fiveDayOne">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Jquery link -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Script link -->
+    <script src="script.js"></script>
+</body>
+
+</html>

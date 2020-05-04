@@ -1,0 +1,159 @@
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-image: url(./default.jpg);
+    background-attachment: fixed;
+    background-size:cover;   
+}
+
+p{
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 700;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+.card-header{
+    background-color: transparent;
+    border: none;
+}
+
+/* Styles for Header */
+.headerH1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-top: 3rem;
+    color: white;
+}
+
+.snowPiece{
+    margin-right: 5rem;
+}
+
+/* Styles for Search */
+.form-control{
+    font-size: 1.7rem;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #007BFF;
+    background-color: transparent;
+}
+.history {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+    font-size:2.2rem;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid #007BFF;
+}
+
+#cityBtn::first-letter{
+    text-transform: uppercase;
+}
+
+.fa-search{
+    font-size: 2.2rem;
+
+}
+
+.rowBody{
+
+    margin-top: 5rem;
+}
+
+/* Styles for Current Weather  */
+.card-body{
+    text-align: center;
+}
+
+.date{
+font-size: 2rem ;
+width: 25%;
+float: right;
+}
+
+.temp{
+    color: white;
+    font-size: 5rem;
+
+}
+
+.citySpan{
+    color: white;
+    font-size: 3rem;
+}
+
+.uvSevere{
+    background-color: rgba(245, 11, 34, 0.5); 
+}
+
+.uvModerate{
+    background-color:rgba(247, 202, 24, 1); 
+}
+
+.uvFavorable{
+    background-color: rgba(0, 204, 0, 0.5); 
+}
+
+.tempP{
+    margin-left: 6.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.description{
+    margin-bottom: 2rem;
+}
+
+.description::first-letter{
+    text-transform: uppercase;
+}
+/* Styles for five day forecast */
+.fiveDayColor {
+    padding: 2rem;
+    background-color: rgba(0,123,255,0.25);
+    color: white;
+    float: left;
+    margin: 1rem;
+}
+
+.fiveDayCard{
+    margin-top: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
