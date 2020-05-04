@@ -1,7 +1,7 @@
 # 06 Server-Side APIs: Weather Dashboard
 
 
-- [Weather Dashboard Github IO]()
+- [Weather Dashboard Github IO](https://hsnertas.github.io/propenphyg/)
 - [Weather Dashboard Demo Video](https://drive.google.com/file/d/1Ws9pQ73WQZ21CaHb9lAKrmptGFJOdx6F/view)
 
 --- 
